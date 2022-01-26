@@ -1,0 +1,17 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 01-25-2022
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <b> Welcome to LWC </b>
+ 
+    <lightning-input type="text" label="First Name " name ="fname" value = {fname} onchange={handlechange}></lightning-input>
+    <lightning-input type="text" label="Last Name " name ="lname" value = {lname}  onchange={handlechange}></lightning-input>
+    <lightning-input type="email" label="email "  name ="email" value = {email}  onchange={handlechange}></lightning-input>
+   
+    <lightning-button variant="success" label="Fire event"  onclick={fireevent} ></lightning-button>
+ 
+ </template>
